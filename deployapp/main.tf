@@ -7,12 +7,6 @@ terraform {
   }
 }
 
-provider "bigip" {
-address = var.address
-username = var.username
-password = var.password
-port = var.port
-}
 
 # Example Usage for json file
 resource "bigip_bigiq_as3" "exampletask" {
